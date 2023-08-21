@@ -20,7 +20,7 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         height: 100px;
-        margin-top: 500px;
+        margin-top: 0px;
         border-radius: 0px;
         color: white;
     }
@@ -90,13 +90,196 @@
   </div>
 </nav> <!-- FECHA O NAVBAR-->
 
-
-    <div class="rodape">
-        @Copyright
-        <br> <br>
-        ESTE SITE FORA FEITO PARA FINS EDUCATIVOS!
+  <div class="row m-2"> <!-- ROW- UM AO LADO DO OUTRO--> <!-- COPIE AQUI PARA CRIAR UMA NOVA FILEIRA CARDS ROW-->
+    <div class="card col-4 sm-col-12" style="width: 18rem;"> <!-- ABRE OS CARDS-->
+        <img class="card-img-top" src="Imagens/Cesta_vibescampo_QUADRADO.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title"> Kit Jardinagem  </h5>
+        <p class="card-text"> Cesta + Pá de Jardinagem + Tesoura de Jardinagem + Brinde Cesta de Flor Camomila </p>
+        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#id_modal1" >Eu Quero!</a>
+        </div>
     </div>
-</body>
+
+    <div class="card col-4 sm-col-12" style="width: 18rem;">
+        <img class="card-img-top" src="Imagens/Suculentinhas_QUADRADO.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title"> Combo: Vasos de Suculentas </h5>
+        <p class="card-text"> Vasos de Suculentas - 3 Unidades</p>
+        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#id_modal2" > Eu Quero! </a>
+        </div>
+    </div>
+
+    <div class="card col-4 sm-col-12" style="width: 18rem;">
+        <img class="card-img-top" src="Imagens/Carmelia.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title"> Carmélia Branca </h5>
+        <p class="card-text"> Carmélia Branca - 1 unidade </p>
+        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#id_modal3"> Eu Quero!</a>
+        </div>
+    </div> 
+    </div> <!-- FECHA OS CARDS-->
+  </div> <!-- FECHA ROW-->
+
+  <div class="row m-2"> <!-- ROW- UM AO LADO DO OUTRO--> <!-- COPIE AQUI PARA CRIAR UMA NOVA FILEIRA CARDS ROW-->
+    <div class="card col-4 sm-col-12" style="width: 18rem;"> <!-- ABRE OS CARDS-->
+        <img class="card-img-top" src="Imagens/buque_de_flor.png" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title"> Buque de Flores Primavera</h5>
+        <p class="card-text">Buque coleção hortênsias rosas e azuis </p>
+        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#id_modal4"> Eu Quero!</a>
+        </div>
+    </div>
+
+    <div class="card col-4 sm-col-12" style="width: 18rem;">
+        <img class="card-img-top" src="Imagens/flordemaio.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title"> Flor de Maio </h5>
+        <p class="card-text"> Flor de maio amarela - 1 unidade </p>
+        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#id_modal5">Eu Quero!</a>
+        </div>
+    </div>
+
+
+    <div class="card col-4 sm-col-12" style="width: 18rem;">
+        <img class="card-img-top" src="Imagens/hortensia_roxa.png" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Íris Alemã Roxa</h5>
+        <p class="card-text">Íris Alemã Roxa - 1 unidade</p>
+        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#id_modal6"> Eu Quero!</a>
+        </div>
+    </div> 
+    </div> <!-- FECHA OS CARDS-->
+  </div> <!-- FECHA ROW-->
+
+
+  <div class="modal" id="id_modal1"  tabindex="-1" role="dialog"> <!-- ABRE MODAL 1-->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Kit de Jardinagem</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Apenas por R$80,00 o kit completo. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"> Voltar </button>
+          <button type="button" class="btn btn-primary">Adicionar ao carrinho </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- FECHA MODAL 1-->
+
+  <div class="modal" id="id_modal2"  tabindex="-1" role="dialog"> <!-- ABRE MODAL 2-->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Combo: Vasos de Suculentas</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Apenas por R$45,00 o combo. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"> Voltar </button>
+          <button type="button" class="btn btn-primary">Adicionar ao carrinho </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- FECHA MODAL 2-->
+
+  <div class="modal" id="id_modal3"  tabindex="-1" role="dialog"> <!-- ABRE MODAL 3-->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"> Carmélia Branca</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Apenas por R$20,00 cada unidade.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"> Voltar </button>
+          <button type="button" class="btn btn-primary">Adicionar ao carrinho </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- FECHA MODAL 3-->
+
+
+  <div class="modal" id="id_modal4"  tabindex="-1" role="dialog"> <!-- ABRE MODAL 4-->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Buque de Flores Primavera</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Apenas por R$65,00 o buquê de hortênsias rosas e azuis.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"> Voltar </button>
+          <button type="button" class="btn btn-primary">Adicionar ao carrinho </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- FECHA MODAL 4-->
+
+  <div class="modal" id="id_modal5"  tabindex="-1" role="dialog"> <!-- ABRE MODAL 5-->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Flor de Maio</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Apenas por R$30,00 cada unidade.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"> Voltar </button>
+          <button type="button" class="btn btn-primary">Adicionar ao carrinho </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- FECHA MODAL 5-->
+
+  <div class="modal" id="id_modal6"  tabindex="-1" role="dialog"> <!-- ABRE MODAL 6-->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Íris Alemã Roxa</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Apenas por R$50,00 cada unidade</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"> Voltar </button>
+          <button type="button" class="btn btn-primary">Adicionar ao carrinho </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- FECHA MODAL 6-->
+
+  <div class="rodape">
+    @Copyright
+    <br> <br>
+    ESTE SITE FORA FEITO PARA FINS EDUCATIVOS!
+  </div>
+  </body>
+
 
 <!-- Importando o jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
